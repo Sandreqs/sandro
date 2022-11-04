@@ -4,15 +4,41 @@
 body.yellow{
     background-color: yellow;
 }
-.wrapper{
-    margin-left: 30px auto auto 30px;
+.wrapper, .container{
+    margin: 30px auto auto 30px;
 }
+
+    margi
+
 .red{
     color: red;
 }
+.text-container{
+    margin: 0px auto;
+    width: 500px;
+    text-align: center;
+}
+.text-container .title{
+    color: blue;
+    font-size: 20px;
+    font-family: "ninoBold";
+    
+}
+.contact-li{
+    font-family: "ingiroArial";
+    color: black;
+    margin-top: 10px;
+}
+.navigation-li{
+    display: inline-block;
+}
+.contact-li span{
+    color: #808080;
+}
+
 .image{
     margin-top: 30px;
-    width: 500px;
+    width: 300px;
 }
 .title{
    
@@ -24,12 +50,11 @@ body.yellow{
     
 }
 .logo{
-    margin-top: 30px;
-margin-left: 30px;
+   
 width: 100px;
 }
 .navigation{
-margin-left: 30px;
+
 margin-top: 22.5px;
 }
 .navigation-a{
@@ -38,11 +63,15 @@ margin-top: 22.5px;
     display: inline-block;
     text-decoration: none;
     font-family: "ninobold";
+    color: #000066;
 
+}
+.navigation-a.active{
+    color: red;
 }
 .banner-section{
     margin-top: 22.5px;
-    margin-left: 30px;
+    
 }
 .banner-img{
     width: 1170px;
@@ -56,4 +85,6 @@ margin-top: 22.5px;
 .social-img{
     height: 30px;
 }
-
+.footer{
+    margin-top: 30px;
+}
